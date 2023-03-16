@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+
+        <body>
+
+            <h1 style="text-align: center; color: brown;">Aula 4 - Atividade Prática - 08/03 </h1>
+
+            <p style="font-size: 20px; text-align: center; color: brown ;">
+            
+            É o processo de <strong>pensamentos</strong> envolvido na <em>formulção de um problema na </em><u>expressão de sua solução</u>
+
+            <hr color="red" size="6">
+
+            <h2 style="text-align: center; color: blueviolet;"> Habilidade </h2>
+
+            <p style="text-align: right;">1-Decomposição</p>
+
+            <p style="text-align: left;">2-Abstração</p>
+
+            <hr color="green" size="6">
+
+            <font style="font-size: 20px; color: aqua;">
+                <p><strong>Lista não ordenada</strong></p>
+            </font>
+             <ul>
+                <li>Progamação Front-End</li>
+                <li>Português</li>
+                <li>Matemática</li>
+                <li>Ciẽncias da Computação</li>
+             </ul>
+
+             <hr color="purple" size="6">
+
+             <font style="font-size: 20px; color: aqua;">
+                <p><strong>Lista Ordenada</strong></p>
+             </font>
+              <ol>
+                <li>Progamação Front-End</li>
+                <li>Português</li>
+                <li>Matemática</li>
+                <li>Ciẽncias da Computação</li>
+                
+              </ol>
+
+            </body>
+        </head>
+    </html>
