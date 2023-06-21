@@ -7,7 +7,7 @@
   <body>
     <header> 
       <img id="logo" src="logotipo1.png">
-      <h1 class="titulo-principal">Produtos sem glúten e sem lactose</h1>
+      <h1 class="titulo-principal">Produtos futebolistas</h1>
     </header>
     <main>
         <form>
@@ -51,7 +51,7 @@
     </main>
     <footer>
         <img id="logo1" src="logotipo1,png">
-        <p class="copyright">&copy; Copyright -- Julia Rodrigues</p>
+        <p class="copyright">&copy; Copyright -- Eloisa Larentis</p>
     </footer>
   </body>
 </html>
