@@ -2,31 +2,51 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site responsivo</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estiloindex.css">
-    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/header.css">
 </head>
 <body>
-    <header>
-    <img id="logo" src="logotipo.png" alt="logo">
-    <h1 class="titulo-principal">Produtos futebolistas</h1>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="produtos.html">PRODUTOS</a></li>
-            <li><a href="contato.html">CONTATO</a></li>
-        </ul>
-    </nav>
-    </header>
-    <main>
+   <header class="cab">
+        <div class="conteiner">
+            <input type="checkbox" id="menu" class="conteiner_botao">
+            <label for="menu">
+                <span class="cab_menu conteiner_img"></span>
+            </label>
+                <ul class="lista_menu">
+                   <li class="lista_menu_tit">CATEGORIAS</li>     
+                    <li class="lista_menu_item"> Camisetas</li>
+                    <li class="lista_menu_item"> Calças</li>
+                    <li class="lista_menu_item"> Bermudas</li>
+                    <li class="lista_menu_item"> Conjuntos</li>
+                    <li class="lista_menu_item"> Tênis</li>
+                </ul>   
+            <img class="conteiner_img" src="Img/logotipo.png" alt="GhostShop">
+        </div>
+        <p class="logo"> G h o s t S h o p</p>
+        <p class="slogam">Uma loja streetwear, de assustar 👻</p>
+   </header> 
+  <div class="quadrado-container">
     <div class="quadrado">
-        <img src="Chuteira Nike Branca.png" alt="Imagem">
-        <p>De R$379,00 por a partir de R$259,99</p>
-      </div>
-      <div class="quadrado1">
-        <img src="Meiao Penalty.png" alt="Imagem">
-        <p>De 64,00 por a partir de R$49,99</p>
-      </div>
-    </main>
+        <img src="Img/Camiseta_High.webp" alt="Imagem">
+        <p class="titulo">Camiseta High Popeye 
+            R$79,90
+        </p>
+    </div>
+    <div class="quadrado1">
+        <img src="Img/Tenis_Tesla.webp" alt="Imagem">
+        <p>Tênis Tesla Coil Black Reflect
+            R$329,90
+        </p>
+    </div>
+    <div class="quadrado2">
+        <img src="Img/Calça_Compton.jpg" alt="Imagem">
+        <p>Calça Starter Sintética Compton
+            R$159,90
+        </p>
+    </div>
+  </div>
 </body>
+</html>
