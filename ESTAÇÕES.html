@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>atividade switch case</title>
+    <style>
+        body{
+            background-color: rgb(54, 22, 85);
+        }
+    </style>
+</head>
+<body id="fundo">
+</form>
+<P><h1> informe o mês </h1></P>
+<input type="text" id="mes">
+<input type="button" value="VERiFICAR" onclick= "verificar()">
+<div id="ver"> ... </div>
+</form>
+<script>
+    function verificar(){
+        var n1 = window.document.getElementById('mes')
+        var nmes = (n1.value.toLowerCase())
+        switch(nmes){
+            case 'dezembro':
+            case "janeiro":
+            case "fevereiro":
+                ver.innerText= "É VERÃO"
+                fundo.style.backgroundImage= 'url('https://www.prosaude.org.br/wp-content/uploads/2021/07/Verao-1.jpg')'
+                fundo.style.backgroundSize= "100%"
+                break
+            case "março":
+            case "abril":
+            case "maio":
+                ver.innerText="É OUTUNO"
+                fundo.style.backgroundImage= 'url('https://www.lopes.com.br/blog/wp-content/uploads/2017/03/capa.jpg')'
+                break
+            case "junho":
+            case "julho":
+            case "agosto":
+                ver.innerText="É INVERNO"
+                fundo.style.backgroundImage= 'url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaRDayYCvYYM56eMWIAd1AjB_2oyqL7ebpE5qxAiZPR-gjIK0TID_zLJkBs44rb13B84&usqp=CAU')'
+                break
+            case "setembro":
+            case "outubro":
+            case "novembro":
+                ver.innerText="É PRIMAVERA"
+                fundo.style.backgroundImage= 'url('https://thumbs.dreamstime.com/b/borboletas-na-primavera-39032667.jpg')'
+                break
+            default
+            ver.innerText="[ERROR] MÊS INVALIDO, digite um mes valido"
+
+        }
+
+    }
+       </script>
+    </body>
+    </html>
