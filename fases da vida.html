@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais perto da morte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>quando você crescer vai ficar assim!</h1>
+    <main>
+        <form action="">
+            <p>
+                <label for="iage">digite sua idade:</label>
+                <input type="number" name="iage" id="iage" min="0" max="150" value="15">
+            </p>
+            <p>
+                <label for="">Sexo:</label>
+                <input type="radio" name="sex" id="sexmas" checked>
+                <label for="sexmas">Masculino</label>
+                <input type="radio" name="sex" id="sexfem">
+                <label for="sexfem">Feminino</label>
+
+            </p>
+            <p>
+                <input type="button" value="Veja sua fase" onclick="verificar()" class="btn">
+            </p>
+            <div id="txt"></div>
+            <div>
+                <img id="imagem" src="" alt="" srcset="">
+            </div>
+        </form>
+    </main>
+    <script>
+        function verificar() {
+            const age = document.getElementById("iage").value;
+            const mas = document.getElementById("sexmas");
+            const fem = document.getElementById("sexfem");
+            const txt = document.getElementById("txt"); 
+
+            if (age <= 10 && mas.checked) {
+                txt.innerHTML = "Você é um menino e têm " + age + " anos.";
+                imagem.src = 'https://www.gifcen.com/wp-content/uploads/2021/09/caillou-7.gif';
+            }
+            if(age >=15 && mas.checked){
+                txt.innerHTML = "Você é um adolecente e têm " + age + " anos.";
+                imagem.src = 'https://64.media.tumblr.com/bfd7e0c91567c87a453145447b18e2d0/tumblr_p4ffz0AfMG1wvx5bho1_500.gif';
+            }
+            if(age>=30 && mas.checked){
+                txt.innerHTML = "Você é um homem e têm " + age + " anos.";
+                imagem.src = 'https://img.wattpad.com/9d035edec581377a645afcce3540c2c7e4ae52c1/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f465075536e4f42645f6b677641673d3d2d313133303739333531382e3136613563353961656664613565323035323336383733303433312e676966';
+            }
+            if(age>=60 && mas.checked){
+                txt.innerHTML = "Você é um idoso e têm " + age + " anos.";
+                imagem.src = 'https://64.media.tumblr.com/2ffdc1bf0d7ae15bb0306df5d83f2363/tumblr_mpwfyq1jqo1qeyb9ho1_500.gif'
+            }
+            if (age <= 10 && fem.checked) {
+                txt.innerHTML = "Você é uma menina e têm " + age + " anos.";
+                imagem.src = 'https://i.pinimg.com/originals/50/64/d7/5064d76daf4d310886920076f71787a6.gif';
+
+            } 
+            if(age >=15 && fem.checked){
+                txt.innerHTML = "Você é uma adolocente e têm " + age + " anos.";
+                imagem.src = 'https://i.pinimg.com/originals/20/b3/2e/20b32e45797bc8a2c8dd3067ec93198a.gif';
+            }
+            if(age >=30 && fem.checked){
+                txt.innerHTML = "Você é uma mulher e têm " + age + " anos.";
+                imagem.src = 'https://media.tenor.com/YmrM1hVOpvEAAAAd/grocery-shopping-mary-wendle.gif';
+            }
+            if(age>=60 && fem.checked){
+                txt.innerHTML = "Você é uma senhora e têm " + age + " anos.";
+                imagem.src = 'https://mega.ibxk.com.br/2016/10/28/28152005823305.jpg?ims=610x';
+            }
+        }
+    </script>
+</body>
+</html>
