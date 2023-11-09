@@ -1,26 +1,27 @@
-@import url("styles/header.css");
-:root{
-    --cor-de-fundo:rgb(96, 13, 122);
-    --branco:white;
-    --degrade:linear-gradient(rgb(221, 35, 44), rgb(33, 1, 33) ); 
-}
-*{
-    margin: 0px;
-}
+@charset "UTF-8";
 body{
-    background-color: var(--cor-de-fundo);
-    font-size: 16px;
-    font-weight: 400px;
+    background-color: rgb(255, 240, 250);
 }
-.slogam{
-    color: rgb(4, 4, 4);
-    font-size: 20px;
-    /*font-family: 'Fantasy', Arial, sans-serif;*/
-    display: none;
+main{
+    background-color: rgb(185, 226, 245);
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
 }
-.logo{
-    font-size: 30px;
-    display: none;
+h1{
     text-align: center;
-    flex: content;
+}
+#txt{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.btn{
+    padding: 20px;
+}
+img{
+    width: 500px;
+    height: 300px;
 }
