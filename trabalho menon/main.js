@@ -1,14 +1,15 @@
 
 //ariana
-function tocaSomariana(){
+function tocaSomAriana(){
     document.querySelector("#som_tecla_ariana").play();
 }
-document.querySelector(".tecla_ariana").onclick = tocaSomariana;
+document.querySelector(".tecla_ariana").onclick = tocaSomAriana;
+
 //ashnikko
-function tocaSomashnikko(){
+function tocaSomAshnikko(){
     document.querySelector("#som_tecla_ashnikko").play();
 }
-document.querySelector(".tecla_ashnikko").onclick = tocaSomashnikko;
+document.querySelector(".tecla_ashnikko").onclick = tocaSomAshnikko;
 
 //eminem
 function tocaSomEminem(){
@@ -17,40 +18,40 @@ function tocaSomEminem(){
 document.querySelector(".tecla_flash").onclick = tocaSomEminem;
 
 //gianegiovani
-function tocaSomgianegiovani(){
+function tocaSomGianegiovani(){
     document.querySelector("#som_tecla_gianegiovani").play();
 }
-document.querySelector(".tecla_gianegiovani").onclick = tocaSomgianegiovani;
+document.querySelector(".tecla_gianegiovani").onclick = tocaSomGianegiovani;
 
 //hariel
-function tocaSomhariel(){
+function tocaSomHariel(){
     document.querySelector("#som_tecla_hariel").play();
 }
-document.querySelector(".tecla_hariel").onclick = tocaSomhariel;
+document.querySelector(".tecla_hariel").onclick = tocaSomHariel;
 
-//hulk
-function tocaSomHulk(){
-    document.querySelector("#som_tecla_hulk").play();
+//kevin
+function tocaSomKevin(){
+    document.querySelector("#som_tecla_kevin").play();
 }
-document.querySelector(".tecla_hulk").onclick = tocaSomHulk;
+document.querySelector(".tecla_kevin").onclick = tocaSomKevin;
 
-//batman
-function tocaSomBatman(){
-    document.querySelector("#som_tecla_batman").play();
+//lilpeep
+function tocaSomLilpeep(){
+    document.querySelector("#som_tecla_lilpeep").play();
 }
-document.querySelector(".tecla_batman").onclick = tocaSomBatman;
+document.querySelector(".tecla_lilpeep").onclick = tocaSomLilpeep;
 
-//ferro
-function tocaSomFerro(){
-    document.querySelector("#som_tecla_ferro").play();
+//livinho
+function tocaSomLivinho(){
+    document.querySelector("#som_tecla_livinho").play();
 }
-document.querySelector(".tecla_ferro").onclick = tocaSomFerro;
+document.querySelector(".tecla_livinho").onclick = tocaSomLivinho;
 
-//america
-function tocaSomAmerica(){
-    document.querySelector("#som_tecla_america").play();
+//marilia
+function tocaSomMarilia(){
+    document.querySelector("#som_tecla_marilia").play();
 }
-document.querySelector(".tecla_america").onclick = tocaSomAmerica;
+document.querySelector(".tecla_marilia").onclick = tocaSomMarilia;
 /*
 
 function tocaSom(idElementoAudio){
